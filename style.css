@@ -1,0 +1,500 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navigation .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.nav h2{
+    color: palevioletred;
+    font-family: sans-serif;   
+}
+.nav .icon1{
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 70px;
+}
+.head h1{
+   color: rgb(0, 110, 255);
+   margin-top: 100px;
+   text-align: center;
+   margin-left: 20px;
+   font-family: sans-serif;
+   font-size: 40px;
+}
+.head p{
+    text-align: center;
+    padding: 10px;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+.container .img1{
+    margin-right: 40px;
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vh;
+}
+.container1 .blue{
+    background-color: rgb(66, 178, 253);
+    width:350px;
+    height: 200px;
+}
+.container1 .yellow{
+    background-color: rgba(230, 223, 0, 0.963);
+    width: 350px;
+    height: 200px;
+}
+.container1 .pink{
+    background-color: palevioletred;
+    width: 350px;
+    height: 200px;
+}
+.container1 .bluee{
+    background-color: rgb(0, 76, 255);
+    width: 350px;
+    height: 200px;
+}
+.blue .book{
+    color: white;
+    font-size: 50px;
+    margin: 150px;
+}
+.blue h2{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.yellow .bulb{
+    color: white;
+    font-size: 50px;
+    margin: 150px;
+}
+.yellow h2{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.pink .hand{
+    color: white;
+    font-size: 50px;
+    margin: 150px;
+}
+.pink h2{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.bluee .game{
+    color: white;
+    font-size: 50px;
+    margin: 150px;
+}
+.bluee h2{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.kids{
+    background-color: rgb(227, 227, 227);
+    padding: 100px;
+    height: 100px;
+}
+.kids h1{
+    text-align: center;
+    color: rgb(4, 108, 218);
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.kids p{
+    text-align: center;
+    padding: 10px;
+}
+.kids .line{
+    border: 2px solid black;
+    width: 40px;
+    margin: 10px;
+    margin-left: 50%;
+}
+.container2{
+    /* border: 2px solid black; */
+    height: 600px;
+}
+.container2 h3{
+    color: rgb(138, 138, 138);
+    font-family: sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+.container2 h1{
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+}
+/* .four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.big img{
+    width: 300px;
+    height: 300px;
+} */
+
+.forth{
+    height:630px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+.forth h4{
+  font-size: large;
+  color:rgb(121, 121, 121);
+  font-weight: 200;
+  font-family: sans-serif;
+  margin-bottom: 12px;
+}
+.forth h3{
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+.innerDiv{
+  height:77%;
+  width:60%;
+  display: flex;
+  justify-content: space-between;
+}
+.left{
+  height:100%;
+  width:50%;
+}
+.right{
+  height:100%;
+  width:50%;
+  display: flex;
+  flex-direction: column;
+}
+.uper{
+  height:50%;
+  width:100%;
+}
+.flx{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.teacher{
+  height:96%;
+  width:46%;
+  padding-right: 12px;
+  padding-top: 12px;
+  background-color: #EBFCFC;
+}
+.ico{
+  height:50px;
+  width:50px;
+  border-radius: 100%;
+  float: right;
+  margin-bottom: 12px;
+  font-size: 50px;
+  color: rgb(2, 137, 106);
+}
+.teacher h4{
+  text-align: right;
+  color: gray;
+}
+.teacher p{
+  font-size: 12px;
+  padding:12px 4px;
+  color:gray;
+}
+.teacher a{
+  text-decoration: none;
+  color: gray;
+  float: right;
+  font-size: 14px;
+}
+.mission{
+  height:96%;
+  width:46%;
+}
+.btm{
+  height:50%;
+  width:100%;
+}
+.imgb1{
+  height:100%;
+  width:47%;
+}
+.imgb2{
+  height:100%;
+  width:47%;
+}
+
+/* key */
+.key{
+    background-color: rgb(255, 191, 0);
+    height: 400px;
+}
+.key h3{
+   color: white;
+   font-family: sans-serif;
+   text-align: center;
+   padding: 30px;
+}
+.key h1{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    margin: -20px;
+}
+.people{
+    background-color: white;
+    width: 200px;
+    height: 240px;
+    /* border: 1px solid black; */
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+.people h4{
+    text-align: center;
+    color: rgb(0, 136, 255);
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+.people p{
+    text-align: center;
+    font-weight: 400;
+}
+.iconss{
+    font-size: 50px;
+    color: rgb(255, 208, 0);
+    margin-left: 75px;
+    margin-top: 20px;
+}
+.people .h4{
+    color: palevioletred;
+}
+.people .active{
+    color: rgb(0, 108, 250);
+}
+.people .creative{
+    color: green;
+}
+.people .qual{
+    color: rgb(255, 162, 0);
+}
+.container3{
+    background-color: rgb(219, 219, 219);
+    height: 50vh;
+}
+.container3 h1{
+    text-align: center;
+    padding: 40px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-left: -180px;
+}
+.twos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-left: 310px;
+    gap: 40px;
+}
+.method{
+    background-color: rgb(48, 196, 255);
+    height: 380px;
+}
+.girls img{
+    width: 230px;
+    height: 315px;
+}
+.three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.girls{
+    width: 220px;
+    background-color: white;
+    /* border: 2px solid black; */
+    gap: 10;
+    text-align: center;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.best h3{
+    color: rgb(182, 182, 182);
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+.best .heed{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    text-align: center;
+}
+.funny{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.imagees img{
+    height: 500px;
+    padding: 40px;
+}
+.happy{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+.happy{
+    align-items: flex-end;
+}
+.happy .tran{
+    margin-right: 100px;
+}
+.happy .last{
+    margin-right: 110px;
+}
+.facility{
+    background-color: rgb(3, 214, 204);
+    height: 600px;
+}
+.facility h3{
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(232, 232, 232);
+    padding: 20px;
+}
+.facility h1{
+    text-align: center;
+    font-family: sans-serif;
+    color: white; 
+}
+.container6{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.shoes img{
+    width: 400px;
+    height: 450px;
+}
+.comfort{
+    background-color: white;
+    width: 400px;
+    height: 450px;
+}
+.comfort h1{
+    color: black;
+    margin-top: 150px;
+    margin-right: 25px;
+}
+.comfort p{
+    margin-top: 140px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.btn{
+    border: none;
+    background-color: white;
+    color: palevioletred;
+    margin: 10px;
+    cursor: pointer;
+}
+.container7{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+}
+.round{
+    font-size: 50px;
+    color: white;
+    margin-left: 90px;
+    background-color: palevioletred;
+    border-radius: 50%;
+}
+.roun{
+    font-size: 50px;
+    color: white;
+    margin-left: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+.rou{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-left: 60px;
+    background-color: rgb(0, 115, 255);
+    border-radius: 50%;
+}
+.container8{
+    background-color: rgb(216, 112, 173);
+    height: 280px;
+;}
+.tree{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 100px;
+}
+.headline h3{
+    color: white;
+    font-family: sans-serif;
+    margin-left: -40px;
+}
+.headline p{
+    color: white;
+    font-family: sans-serif;
+    margin: 5px;
+}
+.iconssss{
+    text-align: center;
+    color: white;
+}
+.footer{
+    background-color: black;
+    height: 60px;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.footer .foot{
+    color: rgb(245, 165, 178);
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
